@@ -1,0 +1,227 @@
+.form{
+    position: absolute;
+    z-index: 3;
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 500px;
+    height: 550px;
+    row-gap: 1%;
+    border-radius: 5px;
+    animation: popup 0.5s;
+    border: 1px solid rgb(163, 57, 163);
+}
+
+@keyframes popup {
+    0%{
+        transform: scale(0.3);
+    }
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+.form-heading{
+    padding-top: 2.5%;
+    background-color: rgb(163, 57, 163);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height:8%;
+    width: 100%;
+}
+
+.form-usage{
+    display: flex;
+    margin-top: -1%;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    font-size: 25px;
+}
+
+.form-usage-option{
+    width: 50%;
+    border: 1px solid none;
+    padding: 5px;
+}
+
+.form-chosen{
+    border-bottom: 4px solid rgb(231, 223, 59);
+    background-color: rgb(228, 238, 238);
+}
+
+.form-fields{
+    margin: 2.5% auto;
+    width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid rgb(93, 168, 218);
+}
+
+.form-titles{
+    margin-top: 2.5%;
+    margin-left: 15%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form-btns{
+    margin: auto;
+    width: 35%;
+    padding: 5px;
+    background-color: rgb(93, 168, 218);
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.form-btns:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.form-btns-disabled{
+    opacity: 0.4;
+}
+
+.form-btns-disabled:hover{
+    opacity: 0.4;
+    transform: scale(1);
+}
+
+.form-raido-container{
+    margin: 2.5% auto;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    font-size: large;
+}
+
+.form-profile-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin: auto;
+    background-color: white;
+}
+
+
+@media (max-width: 400px) and (max-height: 700px){
+    .form{
+        position: absolute;
+        z-index: 3;
+        margin: 25% auto;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 300px;
+        height: 400px;
+        row-gap: 1%;
+        border-radius: 5px;
+        animation: popup 0.5s;
+        border: 1px solid rgb(163, 57, 163);
+    } 
+
+    .form-heading{
+        padding-top: 2.5%;
+        background-color: rgb(163, 57, 163);
+        color: white;
+        font-size: 15px;
+        text-align: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        height:8%;
+        width: 100%;
+    }
+
+    .form-usage{
+        display: flex;
+        margin-top: -1%;
+        flex-direction: row;
+        text-align: center;
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .form-fields{
+        margin: 2.5% auto;
+        width: 80%;
+        height: 30px;
+        border-radius: 5px;
+        border: 3px solid rgb(93, 168, 218);
+    }
+    
+    .form-titles{
+        margin-top: 2.5%;
+        margin-left: 15%;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .form-btns{
+        margin: auto;
+        width: 35%;
+        padding: 5px;
+        background-color: rgb(93, 168, 218);
+        border-radius: 8px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        opacity: 0.7;
+    }
+    
+    .form-btns:hover{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    
+    .form-btns-disabled{
+        opacity: 0.4;
+    }
+    
+    .form-btns-disabled:hover{
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    
+    .form-raido-container{
+        margin: 2.5% auto;
+        width: 80%;
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        column-gap: 5%;
+        font-size: medium;
+    }
+    
+    .form-profile-icon{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin: auto;
+        background-color: white;
+    }
+}
